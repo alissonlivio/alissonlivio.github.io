@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: 100%;
+    background: darkslategray;
+}
+
+ul{
+    list-style: none;
+}
+
+
+img{
+    width: 50px;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+
+input[type="checkbox"]:checked  ~ nav
+{
+    transform: translateX(350px);
+}
+
+nav{
+    background-color: rgba(16,16,16,.5);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+ul{ 
+    top: 70px;
+    position: absolute;
+    width: 100%;
+    
+}
+
+a{
+    
+    display: block;
+    padding: 20px 5px;
+    color:greenyellow;
+}
+
+a:hover{
+    background-color: rgb(16, 223, 85);
+    color: black;
+}
+
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+#ti{
+    color: whitesmoke;
+   font-size: 30px;
+    position: relative;
+    left: 545px;
+    margin-top: 20px;
+}
+
+.subt{
+    position: relative;
+    left: 380px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+
+.conteudo{
+    color: whitesmoke;
+    margin-top: 7px;
+    text-align: left;
+    
+   
+}
+
+footer{
+    color:black;
+    margin-top: 10px;
+}
+
+#gn{
+    margin-top: 25px;
+    position: relative;
+    left: 150px;
+}
